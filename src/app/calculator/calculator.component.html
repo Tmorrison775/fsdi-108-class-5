@@ -1,0 +1,19 @@
+<div>
+
+
+    <label>Num 1:</label>
+    <input type="number" [(ngModel)]="firstNumber" name="num1">
+    <br>
+    <label>Num 2:</label>
+    <input type="number" [(ngModel)]="secondNumber" name="num2">
+    <br>
+
+    <button (click)="sum();">+</button>
+    <button (click)="subtract();">-</button>
+    <button (click)="multiply();">*</button>
+    <button (click)="divide();">÷</button>
+    <br>
+    <label>Result:</label>
+    <input type="number" readonly="true" [(ngModel)]="result" name="result">
+    <br>
+</div>

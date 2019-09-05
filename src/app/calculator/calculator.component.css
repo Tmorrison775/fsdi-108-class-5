@@ -1,0 +1,11 @@
+button{
+    background-color: aqua;
+    color: red;
+    border-radius: 40px;
+    border: 1px solid #3f3f3f;
+    font-size: 20px;
+    font-weight: bold;
+    padding: 1px 8px;
+    min-width: 28px;
+    margin: 10px;
+}
